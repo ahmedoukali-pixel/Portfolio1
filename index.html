@@ -1,828 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmed Oukali | Robotics & Embedded Systems Engineer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ahmed Oukali | Embedded Systems & Environmental Sensing Engineer</title>
+<meta name="description" content="Embedded systems engineer building soil sensors, firmware, Edge AI and the dashboards around them.">
+<meta name="theme-color" content="#060b09">
+<link rel="icon" href="assets/logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header & Navigation -->
-    <header>
-        <div class="container">
-            <nav class="navbar">
-                <a href="#home" class="logo">
-                    <i class="fas fa-robot"></i>
-                    <span>Ahmed Oukali</span>
-                </a>
-                <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#hackathons">Hackathons</a></li>
-                    <li><a href="#certificates">Certificates</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <button class="mobile-menu-btn" id="mobileMenuBtn">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </nav>
-        </div>
-    </header>
+<i class="progress" aria-hidden="true"></i><i class="orb o1"></i><i class="orb o2"></i>
+<header class="top"><a class="brand" href="#home"><img src="assets/logo.webp" alt="" height="28">Ahmed Oukali</a>
+<button class="menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav id="nav"><a href="#about">About</a><a href="#work">FLA7PRO</a><a href="#projects">Projects</a><a href="#path">Path</a><a href="#competitions">Competitions</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav></header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-background">
-            <div class="circuit-line line-1"></div>
-            <div class="circuit-line line-2"></div>
-            <div class="circuit-line line-3"></div>
-            <div class="circuit-node node-1"></div>
-            <div class="circuit-node node-2"></div>
-            <div class="circuit-node node-3"></div>
-            <div class="circuit-node node-4"></div>
-            <div class="floating-element element-1"><i class="fas fa-microchip"></i></div>
-            <div class="floating-element element-2"><i class="fas fa-robot"></i></div>
-            <div class="floating-element element-3"><i class="fas fa-bolt"></i></div>
-			
-        </div>
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text animate__animated animate__fadeInLeft">
-                    <h1>Ahmed Oukali</h1>
-                    <h2>Robotics & Embedded Systems Engineer</h2>
-                    <p class="hero-description">
-                        Passionate engineer specializing in robotics, embedded systems, and innovative tech solutions. 
-                        Winner of multiple national hackathons with expertise in cutting-edge technologies.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">
-                            <i class="fas fa-rocket"></i> View Projects
-                        </a>
-                        <a href="#contact" class="btn btn-secondary">
-                            <i class="fas fa-envelope"></i> Contact Me
-                        </a>
-                    </div>
-                </div>
-                <div class="hero-visual animate__animated animate__fadeInRight">
-                    <div class="profile-container">
-                        <div class="profile-image-wrapper">
-                           <img src="ahmed.png" alt="Ahmed Oukali" class="profile-image">
+<main>
+<section id="home" class="hero wrap">
+ <svg class="traces" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path pathLength="1" d="M0 120H260L320 180H620"/><path pathLength="1" d="M0 560H340L400 500H700L760 440H1200"/><path pathLength="1" d="M1200 90H980L920 150H760"/><circle cx="620" cy="180" r="5"/><circle cx="760" cy="440" r="5"/><circle cx="760" cy="150" r="5"/></svg>
+ <div class="hero-text">
+  <p class="kicker"><img class="av" src="assets/ahmed.webp" alt="" width="48" height="48">Ahmed Oukali · Tiaret, Algeria</p>
+  <h1>I build sensors that tell farms when to water.</h1>
+  <p class="lead">Embedded systems and electronics engineer. Custom hardware, firmware, signal processing and Edge AI, plus the dashboards and SQL data behind them. M.Sc. in Embedded Systems, ranked 1st in Electronics.</p>
+  <div class="cta"><a class="btn" href="#work">Explore FLA7PRO</a><a class="btn ghost" href="#contact">Get in touch</a></div>
+  <p class="social"><a data-i="github" href="https://github.com/ahmedoukali-pixel" target="_blank" rel="noopener" aria-label="GitHub"></a><a data-i="linkedin" href="https://www.linkedin.com/in/oukali-ahmed/" target="_blank" rel="noopener" aria-label="LinkedIn"></a><a data-i="youtube" href="https://www.youtube.com/@FLA7PRO" target="_blank" rel="noopener" aria-label="YouTube"></a><a data-i="facebook" href="https://www.facebook.com/share/182J3U3Xqq/" target="_blank" rel="noopener" aria-label="Facebook"></a><a data-i="gmail" href="mailto:ahmed.oukali.eng@gmail.com" aria-label="Email"></a></p>
+ </div>
+ <figure class="probe tilt" aria-label="Illustrative simulation of a multi-depth soil probe">
+  <div class="layers" id="layers"></div>
+  <figcaption id="verdict">Reading probe…</figcaption>
+  <small>Illustrative simulation, not measured data.</small>
+ </figure>
+</section>
+<div class="marquee" aria-hidden="true"><div id="mq"></div></div>
 
+<section id="about" class="wrap split">
+ <div><h2>About</h2>
+  <p>I'm a Master 2 graduate in Embedded Systems Engineering (Université Ibn Khaldoun de Tiaret, 2024–2025), based in Tiaret. I build systems where the physical world meets software: custom sensors, low-level firmware, signal processing, and AI that turns raw measurements into decisions.</p>
+  <p>My strength is treating the sensor, the circuit, the firmware and the AI as one system. I work with Arduino, ESP32, PIC and STM32, and I integrate Edge AI into embedded and electronic products.</p>
+  <ul class="facts"><li><b>1st</b> in Electronics, Master's cohort</li><li><b>2</b> degrees: Electronic Systems (2021–24), Embedded Systems (2024–25)</li><li><b>3</b> languages: Arabic (native), English, French</li></ul>
+  <dl class="meta"><dt>Now</dt><dd>Industrial automation (PLC, HMI, SCADA) at Tassyir Digital</dd><dt>Before</dt><dd>AI internship at SIINE Academy</dd><dt>Focus</dt><dd>Environmental sensing, Edge AI, precision agriculture</dd></dl></div>
+ <div><img class="me tilt" src="assets/ahmed.webp" width="400" height="400" alt="Portrait of Ahmed Oukali">
+  <div class="pills"><span data-i="espressif">Embedded systems</span><span data-i="tensorflow">AI integration</span><span data-i="ros">Robotics</span><span data-i="kicad">Electronics</span></div></div>
+</section>
 
-						
-                            <div class="profile-glow">
+<section id="work" class="wrap">
+ <h2>FLA7PRO: soil moisture profiling for smart irrigation</h2>
+ <div class="brandrow"><img class="lg" src="assets/fla7pro.png" alt="FLA7PRO logo" height="52"><p>Real-time monitoring and autonomous smart irrigation, documented on <a href="https://www.youtube.com/@FLA7PRO" target="_blank" rel="noopener">youtube.com/@FLA7PRO</a></p></div>
+ <div class="feature">
+  <div>
+   <p>Irrigation shouldn't depend on one surface reading. This project builds a vertical soil profile so decisions reflect the root zone.</p>
+   <ul class="ticks">
+    <li>Custom multi-depth probe with helical capacitive electrodes and temperature sensing at several levels</li>
+    <li>Signal conditioning (TLV272 stage) and temperature-assisted interpretation</li>
+    <li>Two months of experiments on black, red and brown soils, interpreted with KNN and MLP</li>
+    <li>Local network: nodes cross-check neighbours to flag failed sensors, no cloud needed</li>
+   </ul>
+   <p class="note">Status: laboratory proof-of-concept (TRL-4 style). Roadmap items are planned, not deployed.</p>
+  </div>
+  <ol class="flow"><li>Probe</li><li>Conditioning</li><li>Validation</li><li>KNN / MLP</li><li>Decision</li><li>Dashboard + SQLite log</li></ol>
+ </div>
+ <div class="road"><div><h3>Roadmap</h3><p>PIC nodes move to STM32 with nRF links, feeding a Raspberry Pi hub with dashboard, AI and camera.</p></div>
+  <div class="plat"><h3>FLA7PRO platform</h3><p>Live dashboard and data for the project.</p><a id="platform" class="btn" data-url="" href="#work">Open the platform</a></div></div>
+</section>
 
-                            </div>
-                        </div>
-                        <div class="tech-icons">
-                            <div class="tech-icon"><i class="fab fa-microchip"></i></div>
-                            <div class="tech-icon"><i class="fas fa-microchip"></i></div>
-                            <div class="tech-icon"><i class="fab fa-raspberry-pi"></i></div>
-                            <div class="tech-icon"><i class="fas fa-robot"></i></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<section id="projects" class="wrap">
+ <h2>Projects</h2>
+ <div class="grid">
+  <article class="card"><h3>Smart Lighting Control System</h3><p>AI-powered remote control for home and commercial lighting, with real-time energy optimization and predictive maintenance.</p><p class="chipset"><span data-i="espressif">ESP32</span><span data-i="tensorflow">TensorFlow</span><span data-i="mqtt">MQTT</span><span data-i="react">React Native</span></p><a href="https://github.com/ahmedoukali-pixel/lighting-control" target="_blank" rel="noopener">Code on GitHub</a></article>
+  <article class="card"><h3>Autonomous Robot with AI Vision</h3><p>Autonomous navigation and object recognition using ESP32 and machine learning.</p><p class="chipset"><span data-i="espressif">ESP32</span><span data-i="tensorflow">TF Lite</span><span data-i="opencv">OpenCV</span><span data-i="ros">ROS</span></p><a href="https://github.com/ahmedoukali-pixel/autonomous-robot" target="_blank" rel="noopener">Code on GitHub</a></article>
+  <article class="card"><h3>MAZE GARDEN</h3><p>Interactive web platform for gaming and puzzles, modern UI and responsive layout.</p><p class="chipset"><span data-i="html5">HTML5</span><span data-i="css3">CSS3</span><span data-i="javascript">JavaScript</span><span data-i="github">Pages</span></p><a href="https://hostinghosting144-star.github.io/MAZE_GARDEN./" target="_blank" rel="noopener">Open site</a></article>
+  <article class="card wide"><h3>PCB CATAR COLAR</h3><p>Multi-layer PCB design in Altium Designer with signal-integrity, EMI/EMC and thermal considerations. Click a render to enlarge.</p>
+   <div class="shots"><button data-src="assets/pcb-top.webp"><img src="assets/pcb-top.webp" alt="PCB top, 3D view" loading="lazy"></button><button data-src="assets/pcb-chip.webp"><img src="assets/pcb-chip.webp" alt="PCB with microcontroller, 3D view" loading="lazy"></button></div></article>
+ </div>
+</section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-title">
-                <h2>About Me</h2>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>Master 2 Student in Embedded Systems</h3>
-                    <p>I am a passionate <span class="highlight">Robotics & Embedded Systems Engineer</span> based in Tiaret, Algeria, with a strong interest in robotics, intelligent systems, and hardware-software integration.</p>
-                    <p>My focus is on building real-world robotic and embedded solutions that combine innovation with precision engineering. I specialize in creating intelligent systems using Arduino, ESP32, and other embedded platforms.</p>
-                    <p>I'm driven by the challenge of designing systems that bridge the gap between hardware and software, with particular expertise in integrating artificial intelligence into embedded and electronic systems.</p>
-                </div>
-                <div class="about-cards">
-                    <div class="about-card">
-                        <div class="about-card-icon">
-                            <i class="fas fa-microchip"></i>
-                        </div>
-                        <h4>Embedded Systems</h4>
-                        <p>Expertise in microcontroller programming and system design</p>
-                    </div>
-                    <div class="about-card">
-                        <div class="about-card-icon">
-                            <i class="fas fa-brain"></i>
-                        </div>
-                        <h4>AI Integration</h4>
-                        <p>Specializing in AI integration for embedded applications</p>
-                    </div>
-                    <div class="about-card">
-                        <div class="about-card-icon">
-                            <i class="fas fa-robot"></i>
-                        </div>
-                        <h4>Robotics</h4>
-                        <p>Design and implementation of robotic systems</p>
-                    </div>
-                    <div class="about-card">
-                        <div class="about-card-icon">
-                            <i class="fas fa-bolt"></i>
-                        </div>
-                        <h4>Electronics</h4>
-                        <p>Digital electronics and circuit design expertise</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<section id="path" class="wrap">
+ <h2>Path</h2>
+ <ol class="time">
+  <li><time>Apr 2026 – now</time><h3><img class="lg" src="assets/tassyir.png" alt="" height="26">Tassyir Digital</h3><p>Maintaining and upgrading industrial systems: PLC version updates and integration, HMI and SCADA development.</p></li>
+  <li><time>Jan – Apr 2026</time><h3><img class="lg" src="assets/aicenter.png" alt="" height="26">AI internship, SIINE Academy</h3><p>AI projects, software development and web-based solutions.</p></li>
+  <li><time>2024 – 2025</time><h3>M.Sc. Embedded Systems Engineering</h3><p>Université Ibn Khaldoun de Tiaret. Ranked 1st in Electronics.</p></li>
+  <li><time>2021 – 2024</time><h3>Degree in Electronic Systems</h3><p>Université Ibn Khaldoun de Tiaret.</p></li>
+ </ol>
+</section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-title">
-                <h2>Technical Skills</h2>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3><i class="fas fa-microchip"></i> Advanced Microcontrollers</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">PIC16F Series</span>
-                        <span class="skill-tag">PIC18F Series</span>
-                        <span class="skill-tag">STM32F10x</span>
-                        <span class="skill-tag">dsPIC33</span>
-                        <span class="skill-tag">FPGA</span>
-                        <span class="skill-tag">DSP</span>
-                    </div>
-                </div>
+<section id="competitions" class="wrap">
+ <h2>Competitions</h2>
+ <div class="comp">
+  <article><time>Mar 2025</time><h3>INV-TECH Hackathon</h3><p>5G and IoT solutions, Sidi Abdellah Higher School.</p><ul><li>Smart-city prototype using 5G</li><li>Edge computing for IoT</li><li>Predictive maintenance system</li></ul></article>
+  <article><time>Sep 2024</time><h3>Drone Innovation Challenge</h3><p>Autonomous drones for agricultural monitoring and delivery.</p><ul><li>Autonomous navigation</li><li>Object detection</li><li>Real-time telemetry and delivery mechanism</li></ul></article>
+  <article><time>Nov 2023</time><h3>NOVATECH Hackathon, finalist</h3><p>Smart-city and sustainability solutions.</p><ul><li>IoT energy management</li><li>AI-based traffic optimization</li><li>Smart waste management prototype</li></ul></article>
+ </div>
+ <p class="note">2026: Chipathon, Track B: Circuits for Sensors (OpenLane, Sky130, Magic, Ngspice). Also: Huawei ICT Competition (regional stage) and the Drought Prediction Hackathon (Sudan).</p>
+</section>
 
-                <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">C/C++</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Assembly</span>
-                        <span class="skill-tag">VHDL/Verilog</span>
-                        <span class="skill-tag">MATLAB</span>
-                        <span class="skill-tag">JavaScript</span>
-                    </div>
-                </div>
+<section id="skills" class="wrap">
+ <h2>Skills</h2>
+ <div class="skills">
+  <div><h3>Programming languages</h3><p class="chipset"><span data-i="c">C</span><span data-i="cplusplus">C++</span><span data-i="python">Python</span><span data-i="javascript">JavaScript</span><span data-i="openjdk">Java</span><span data-i="mathworks">MATLAB</span><span>Assembly</span><span>VHDL</span><span>Verilog</span></p></div>
+  <div><h3>Microcontrollers & boards</h3><p class="chipset"><span data-i="microchip">PIC16F/18F</span><span data-i="microchip">dsPIC33</span><span data-i="stmicroelectronics">STM32F10x</span><span data-i="espressif">ESP32</span><span data-i="arduino">Arduino</span><span data-i="raspberrypi">Raspberry Pi</span><span>FPGA</span><span>DSP</span></p></div>
+  <div><h3>AI & machine learning</h3><p class="chipset"><span data-i="tensorflow">TensorFlow</span><span data-i="tensorflow">TF Lite</span><span data-i="opencv">OpenCV</span><span data-i="scikitlearn">KNN</span><span data-i="keras">MLP / neural nets</span><span>Computer vision</span><span>Edge AI</span></p></div>
+  <div><h3>Hardware & EDA</h3><p class="chipset"><span data-i="altiumdesigner">Altium</span><span data-i="kicad">KiCad</span><span>Proteus</span><span>Ngspice</span><span>Analog conditioning</span><span>Power electronics</span><span>Signal processing</span></p></div>
+  <div><h3>Web, data & mobile</h3><p class="chipset"><span data-i="html5">HTML5</span><span data-i="css3">CSS3</span><span data-i="javascript">JS</span><span data-i="react">React Native</span><span data-i="sqlite">SQLite</span><span>SQL</span><span data-i="mqtt">MQTT</span></p></div>
+  <div><h3>Systems & tools</h3><p class="chipset"><span data-i="freertos">FreeRTOS</span><span data-i="linux">Embedded Linux</span><span data-i="git">Git</span><span data-i="docker">Docker</span><span>PLC</span><span>HMI</span><span>SCADA</span><span>MPLAB X</span><span>Keil</span></p></div>
+ </div>
+ <h3 class="sub">Certificates</h3>
+ <div class="certs">
+  <div><h3>Advanced Embedded Systems Design</h3><p>RTOS design, embedded C, hardware interfacing, power optimization</p></div>
+  <div><h3>ROS for Beginners</h3><p>Nodes, topics, services, simulation, navigation</p></div>
+  <div><h3>Computer Vision for Robotics</h3><p>OpenCV, object detection, neural networks, visual SLAM</p></div>
+  <div><h3>IoT System Architecture</h3><p>MQTT, CoAP, sensor networks, cloud integration, security</p></div>
+  <div><h3>RTOS Programming (FreeRTOS)</h3><p>Task management, inter-task communication, memory, debugging</p></div>
+  <div><h3>Advanced PCB Design</h3><p>High-speed design, impedance control, signal integrity, manufacturing outputs</p></div>
+ </div>
+</section>
 
-                <div class="skill-category">
-                    <h3><i class="fas fa-robot"></i> Embedded Systems</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Arduino</span>
-                        <span class="skill-tag">ESP32</span>
-                        <span class="skill-tag">RTOS</span>
-                        <span class="skill-tag">FreeRTOS</span>
-                        <span class="skill-tag">Embedded Linux</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-bolt"></i> Electronics & Hardware</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Digital Electronics</span>
-                        <span class="skill-tag">Analog Circuits</span>
-                        <span class="skill-tag">PCB Design</span>
-                        <span class="skill-tag">Signal Processing</span>
-                        <span class="skill-tag">Power Electronics</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-tools"></i> Software Tools</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">MATLAB/Simulink</span>
-                        <span class="skill-tag">Altium Designer</span>
-                        <span class="skill-tag">KiCad</span>
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">Docker</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-brain"></i> AI & Machine Learning</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">TensorFlow Lite</span>
-                        <span class="skill-tag">OpenCV</span>
-                        <span class="skill-tag">Computer Vision</span>
-                        <span class="skill-tag">Neural Networks</span>
-                        <span class="skill-tag">Edge AI</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-title">
-                <h2>My Projects</h2>
-            </div>
-            <div class="projects-grid">
-                <!-- ControlByElectronic Smart Lighting System -->
-                <div class="project-card featured">
-                    <div class="project-badge">
-                        <span class="badge featured-badge">Featured</span>
-                    </div>
-                    <div class="project-image">
-                        <img src="assets/projects/lighting-control.jpg" alt="Smart Lighting Control System" onerror="this.src='https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'">
-                        <div class="project-overlay">
-                            <h3>Smart Lighting Control System</h3>
-                            <p>AI-powered IoT lighting solution</p>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="tag tag-ai">AI</span>
-                            <span class="tag tag-iot">IoT</span>
-                            <span class="tag tag-embedded">Embedded</span>
-                        </div>
-                        <h3>Smart Lighting Control System</h3>
-                        <p class="project-description">
-                            Intelligent remote control system for home and commercial lighting using AI algorithms and embedded electronics with real-time energy optimization and predictive maintenance.
-                        </p>
-                        <div class="project-tech">
-                            <span>ESP32</span>
-                            <span>TensorFlow</span>
-                            <span>WiFi/BLE</span>
-                            <span>MQTT</span>
-                            <span>React Native</span>
-                            <span>Cloud API</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/ahmedoukali-pixel/lighting-control" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> GitHub
-                            </a>
-                            <a href="mailto:controlbyelectronic@gmail.com" class="project-link">
-                                <i class="fas fa-envelope"></i> Contact
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- PCB CATAR COLAR Project -->
-                <div class="project-card featured">
-                    <div class="project-badge">
-                        <span class="badge featured-badge">Advanced</span>
-                    </div>
-                    <div class="project-image">
-                        <img src="assets/projects/pcb-design.jpg" alt="PCB CATAR COLAR" onerror="this.src='https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'">
-                        <div class="project-overlay">
-                            <h3>PCB CATAR COLAR</h3>
-                            <p>Advanced Multi-layer PCB Design</p>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="tag tag-pcb">PCB Design</span>
-                            <span class="tag tag-advanced">Advanced</span>
-                        </div>
-                        <h3>PCB CATAR COLAR</h3>
-                        <p class="project-description">
-                            Advanced multi-layer PCB design with 11 unique circuit architectures, featuring innovative signal processing techniques and optimized power distribution.
-                        </p>
-                        <div class="project-tech">
-                            <span>Altium Designer</span>
-                            <span>8 Layers</span>
-                            <span>Signal Integrity</span>
-                            <span>EMI/EMC</span>
-                            <span>Thermal Analysis</span>
-                        </div>
-                        <div class="project-links">
-							<a href="assets/projects/catar-colar/11.png" download class="project-link">
-							    <i class="fas fa-image"></i> Design
-							</a>
-							
-							<a href="assets/projects/catar-colar/pcb3.png" download class="project-link">
-							    <i class="fas fa-image"></i> Design
-							</a>
-							
-							<a href="assets/projects/catar-colar/pcb4.png" download class="project-link">
-							    <i class="fas fa-image"></i> Design
-							</a>
-
-				
-                    
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Autonomous Robot -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="assets/projects/autonomous-robot.jpg" alt="Autonomous Robot" onerror="this.src='https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'">
-                        <div class="project-overlay">
-                            <h3>Autonomous Robot</h3>
-                            <p>AI Vision & Navigation</p>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="tag tag-robotics">Robotics</span>
-                            <span class="tag tag-ai">AI</span>
-                        </div>
-                        <h3>Autonomous Robot with AI Vision</h3>
-                        <p class="project-description">
-                            An intelligent robot capable of autonomous navigation and object recognition using ESP32 and machine learning algorithms.
-                        </p>
-                        <div class="project-tech">
-                            <span>ESP32</span>
-                            <span>TensorFlow Lite</span>
-                            <span>OpenCV</span>
-                            <span>ROS</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/ahmedoukali-pixel/autonomous-robot" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- MAZE GARDEN Website -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="assets/projects/website.jpg" alt="MAZE GARDEN Website" onerror="this.src='https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'">
-                        <div class="project-overlay">
-                            <h3>MAZE GARDEN</h3>
-                            <p>Interactive Web Platform</p>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="tag tag-web">Web</span>
-                            <span class="tag tag-design">Design</span>
-                        </div>
-                        <h3>MAZE GARDEN Website</h3>
-                        <p class="project-description">
-                            Interactive web platform for gaming and puzzle solutions with modern UI/UX design and responsive layout.
-                        </p>
-                        <div class="project-tech">
-                            <span>HTML5</span>
-                            <span>CSS3</span>
-                            <span>JavaScript</span>
-                            <span>GitHub Pages</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://hostinghosting144-star.github.io/MAZE_GARDEN./" target="_blank" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Visit
-                            </a>
-                            <a href="https://github.com/hostinghosting144-star/MAZE_GARDEN" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> Source
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Hackathons Section -->
-    <section id="hackathons" class="hackathons">
-        <div class="container">
-            <div class="section-title">
-                <h2>Hackathons & Competitions</h2>
-            </div>
-            
-            <div class="hackathons-grid">
-                <!-- Drone Hackathon 2024 -->
-                <div class="hackathon-card">
-                    <div class="hackathon-badge">
-                        <span class="badge badge-winner">Winner</span>
-                        <span class="badge badge-robotics">Robotics</span>
-                    </div>
-                    <div class="hackathon-icon">
-                        <i class="fas fa-drone"></i>
-                    </div>
-                    <h3>Drone Innovation Challenge 2024</h3>
-                    <div class="hackathon-meta">
-                        <div class="meta-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Tiassemilt, Algeria</span>
-                        </div>
-                        <div class="meta-item">
-                            <i class="fas fa-calendar"></i>
-                            <span>September 2024</span>
-                        </div>
-                    </div>
-                    <div class="hackathon-description">
-                        <h4>Challenge</h4>
-                        <p>Developing autonomous drone systems for agricultural monitoring and delivery applications.</p>
-                    </div>
-                    <div class="hackathon-achievements">
-                        <h4>Achievements</h4>
-                        <ul>
-                            <li><i class="fas fa-check-circle"></i> Designed autonomous navigation system</li>
-                            <li><i class="fas fa-check-circle"></i> Implemented object detection</li>
-                            <li><i class="fas fa-check-circle"></i> Developed real-time telemetry</li>
-                            <li><i class="fas fa-check-circle"></i> Created delivery mechanism</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- NOVATECH Hackathon -->
-                <div class="hackathon-card">
-                    <div class="hackathon-badge">
-                        <span class="badge badge-finalist">Finalist</span>
-                        <span class="badge badge-innovation">Innovation</span>
-                    </div>
-                    <div class="hackathon-icon">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h3>NOVATECH Hackathon 2023</h3>
-                    <div class="hackathon-meta">
-                        <div class="meta-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Algeria</span>
-                        </div>
-                        <div class="meta-item">
-                            <i class="fas fa-calendar"></i>
-                            <span>November 2023</span>
-                        </div>
-                    </div>
-                    <div class="hackathon-description">
-                        <h4>Challenge</h4>
-                        <p>Developing innovative solutions for smart cities and sustainable technologies.</p>
-                    </div>
-                    <div class="hackathon-achievements">
-                        <h4>Achievements</h4>
-                        <ul>
-                            <li><i class="fas fa-check-circle"></i> IoT solution for energy management</li>
-                            <li><i class="fas fa-check-circle"></i> AI-based traffic optimization</li>
-                            <li><i class="fas fa-check-circle"></i> Smart waste management prototype</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- INV-TECH Hackathon -->
-                <div class="hackathon-card">
-                    <div class="hackathon-badge">
-                        <span class="badge badge-special">Special Prize</span>
-                        <span class="badge badge-5g">5G & IoT</span>
-                    </div>
-                    <div class="hackathon-icon">
-                        <i class="fas fa-satellite-dish"></i>
-                    </div>
-                    <h3>INV-TECH Hackathon 2025</h3>
-                    <div class="hackathon-meta">
-                        <div class="meta-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Sidi Abdellah Higher School</span>
-                        </div>
-                        <div class="meta-item">
-                            <i class="fas fa-calendar"></i>
-                            <span>March 2025</span>
-                        </div>
-                    </div>
-                    <div class="hackathon-description">
-                        <h4>Challenge</h4>
-                        <p>Developing innovative solutions that integrate 5G technology with daily life applications.</p>
-                    </div>
-                    <div class="hackathon-achievements">
-                        <h4>Achievements</h4>
-                        <ul>
-                            <li><i class="fas fa-check-circle"></i> Smart city prototype using 5G</li>
-                            <li><i class="fas fa-check-circle"></i> Edge computing for IoT</li>
-                            <li><i class="fas fa-check-circle"></i> Predictive maintenance system</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Hackathon Stats -->
-            <div class="hackathon-stats">
-                <div class="stat-item">
-                    <div class="stat-number" data-count="6">0</div>
-                    <div class="stat-label">Hackathons Participated</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" data-count="4">0</div>
-                    <div class="stat-label">National Events</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" data-count="2">0</div>
-                    <div class="stat-label">International Events</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" data-count="18">0</div>
-                    <div class="stat-label">Solutions Developed</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Certificates & Courses Section -->
-    <section id="certificates" class="certificates">
-        <div class="container">
-            <div class="section-title">
-                <h2>Certificates & Courses</h2>
-                <p class="section-subtitle">Continuous learning and professional development</p>
-            </div>
-            
-            <div class="certificates-grid">
-                <!-- Certificate 1 -->
-                <div class="certificate-card">
-                    <div class="certificate-badge">
-                        <span class="badge badge-embedded">Embedded</span>
-                        <span class="badge badge-completed">Completed</span>
-                    </div>
-                    <div class="certificate-icon">
-                        <i class="fas fa-microchip"></i>
-                    </div>
-                    <h3>Advanced Embedded Systems Design</h3>
-  
-                    <div class="certificate-description">
-                        <p>Comprehensive course covering advanced embedded systems design, real-time operating systems, and hardware-software co-design principles.</p>
-                    </div>
-                    <div class="certificate-skills">
-                        <h4>Skills Gained</h4>
-                        <div class="skills-list">
-                            <span>RTOS Design</span>
-                            <span>Embedded C</span>
-                            <span>Hardware Interfacing</span>
-                            <span>Power Optimization</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Certificate 2 -->
-                <div class="certificate-card">
-                    <div class="certificate-badge">
-                        <span class="badge badge-robotics">Robotics</span>
-                        <span class="badge badge-completed">Completed</span>
-                    </div>
-                    <div class="certificate-icon">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <h3>ROS for Beginners</h3>
-  
-                    <div class="certificate-description">
-                        <p>Complete guide to Robot Operating System (ROS) covering nodes, topics, services, and actionlib for robotics application development.</p>
-                    </div>
-                    <div class="certificate-skills">
-                        <h4>Skills Gained</h4>
-                        <div class="skills-list">
-                            <span>ROS Core Concepts</span>
-                            <span>Robot Simulation</span>
-                            <span>Navigation Stack</span>
-                            <span>SLAM Implementation</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Certificate 3 -->
-                <div class="certificate-card">
-                    <div class="certificate-badge">
-                        <span class="badge badge-ai">AI & ML</span>
-                        <span class="badge badge-completed">Completed</span>
-                    </div>
-                    <div class="certificate-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h3>Computer Vision for Robotics</h3>
- 
-                    <div class="certificate-description">
-                        <p>Applied computer vision techniques for robotics including object detection, image segmentation, and visual servoing for autonomous systems.</p>
-                    </div>
-                    <div class="certificate-skills">
-                        <h4>Skills Gained</h4>
-                        <div class="skills-list">
-                            <span>OpenCV Implementation</span>
-                            <span>Object Detection</span>
-                            <span>Neural Networks</span>
-                            <span>Visual SLAM</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Certificate 4 -->
-                <div class="certificate-card">
-                    <div class="certificate-badge">
-                        <span class="badge badge-iot">IoT</span>
-                        <span class="badge badge-completed">Completed</span>
-                    </div>
-                    <div class="certificate-icon">
-                        <i class="fas fa-wifi"></i>
-                    </div>
-                    <h3>IoT System Architecture</h3>
-   
-                    <div class="certificate-description">
-                        <p>Design and implementation of IoT systems from sensor networks to cloud integration and data analytics with security considerations.</p>
-                    </div>
-                    <div class="certificate-skills">
-                        <h4>Skills Gained</h4>
-                        <div class="skills-list">
-                            <span>IoT Protocols (MQTT, CoAP)</span>
-                            <span>Sensor Networks</span>
-                            <span>Cloud Integration</span>
-                            <span>Data Security</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Certificate 5 -->
-                <div class="certificate-card">
-                    <div class="certificate-badge">
-                        <span class="badge badge-embedded">Embedded</span>
-                        <span class="badge badge-completed">Completed</span>
-                    </div>
-                    <div class="certificate-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>RTOS Programming</h3>
-       
-                    <div class="certificate-description">
-                        <p>Real-Time Operating Systems programming with FreeRTOS, focusing on task scheduling, synchronization, and inter-task communication for embedded systems.</p>
-                    </div>
-                    <div class="certificate-skills">
-                        <h4>Skills Gained</h4>
-                        <div class="skills-list">
-                            <span>FreeRTOS Task Management</span>
-                            <span>Inter-task Communication</span>
-                            <span>Memory Management</span>
-                            <span>Real-time Debugging</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Certificate 6 -->
-                <div class="certificate-card">
-                    <div class="certificate-badge">
-                        <span class="badge badge-pcb">PCB Design</span>
-                        <span class="badge badge-completed">Completed</span>
-                    </div>
-                    <div class="certificate-icon">
-                        <i class="fas fa-project-diagram"></i>
-                    </div>
-                    <h3>Advanced PCB Design</h3>
-     
-                    <div class="certificate-description">
-                        <p>Advanced PCB design techniques including high-speed design, impedance control, signal integrity, and manufacturing considerations for complex circuits.</p>
-                    </div>
-                    <div class="certificate-skills">
-                        <h4>Skills Gained</h4>
-                        <div class="skills-list">
-                            <span>High-Speed PCB Design</span>
-                            <span>Impedance Control</span>
-                            <span>Signal Integrity</span>
-                            <span>Manufacturing Outputs</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Certificate Stats -->
-            <div class="certificate-stats">
-                <div class="stat-item">
-                    <div class="stat-number" data-count="15">0</div>
-                    <div class="stat-label">Certificates</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" data-count="200">0</div>
-                    <div class="stat-label">Learning Hours</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" data-count="6">0</div>
-                    <div class="stat-label">Platforms</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" data-count="95">0</div>
-                    <div class="stat-label">Avg. Score %</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-title">
-                <h2>Get In Touch</h2>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Build Something Amazing Together</h3>
-                    <p>I'm always interested in new opportunities, collaborations, and innovative projects in robotics and embedded systems.</p>
-                    
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="contact-info-content">
-                                <h4>Personal Email</h4>
-                                <a href="mailto:ahmed.oukali.eng@gmail.com">ahmed.oukali.eng@gmail.com</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="contact-info-content">
-                                <h4>Project Email</h4>
-                                <a href="mailto:controlbyelectronic@gmail.com">controlbyelectronic@gmail.com</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="contact-info-content">
-                                <h4>Phone</h4>
-                                <a href="tel:+213658784934">+213 658 784 934</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="contact-info-content">
-                                <h4>Location</h4>
-                                <p>Tiaret, Algeria</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="social-links">
-                        <a href="https://www.linkedin.com/in/oukali-ahmed/" target="_blank" class="social-link">
-                            <i class="fab fa-linkedin"></i>
-                            <span>LinkedIn</span>
-                        </a>
-                        <a href="https://github.com/ahmedoukali-pixel" target="_blank" class="social-link">
-                            <i class="fab fa-github"></i>
-                            <span>GitHub</span>
-                        </a>
-                        <a href="https://www.facebook.com/share/182J3U3Xqq/" target="_blank" class="social-link">
-                            <i class="fab fa-facebook"></i>
-                            <span>Facebook</span>
-                        </a>
-                        <a href="mailto:controlbyelectronic@gmail.com" class="social-link">
-                            <i class="fas fa-envelope"></i>
-                            <span>Email</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <i class="fas fa-robot"></i>
-                    <h3>Ahmed Oukali</h3>
-                    <p>Robotics & Embedded Systems Engineer</p>
-                </div>
-                
-                <div class="footer-links">
-                    <div class="footer-column">
-                        <h4>Quick Links</h4>
-                        <a href="#home">Home</a>
-                        <a href="#projects">Projects</a>
-                        <a href="#hackathons">Hackathons</a>
-                        <a href="#certificates">Certificates</a>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Resources</h4>
-                        <a href="https://github.com/ahmedoukali-pixel" target="_blank">GitHub</a>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Connect</h4>
-                        <a href="https://www.linkedin.com/in/oukali-ahmed/" target="_blank">LinkedIn</a>
-                        <a href="https://www.facebook.com/share/182J3U3Xqq/" target="_blank">Facebook</a>
-                        <a href="mailto:ahmed.oukali.eng@gmail.com">Email</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p class="copyright">© 2024 Ahmed Oukali. All rights reserved.</p>
-                <p class="quote">"Innovating the future, one circuit at a time"</p>
-            </div>
-        </div>
-        
-        <!-- Animated Background Elements -->
-        <div class="footer-bg-elements">
-            <div class="bg-element element-1"></div>
-            <div class="bg-element element-2"></div>
-            <div class="bg-element element-3"></div>
-            <div class="bg-element element-4"></div>
-        </div>
-    </footer>
-
-    <!-- Back to Top Button -->
-    <button id="backToTop" class="back-to-top">
-        <i class="fas fa-chevron-up"></i>
-    </button>
-
-    <script src="script.js"></script>
+<section id="contact" class="wrap contact">
+ <h2>Let's build something together</h2>
+ <p>Open to work and collaboration on embedded systems, environmental sensing, Edge AI and smart agriculture.</p>
+ <div class="cgrid">
+  <a data-i="gmail" href="mailto:ahmed.oukali.eng@gmail.com"><small>Email</small>ahmed.oukali.eng@gmail.com</a>
+  <a data-i="gmail" href="mailto:controlbyelectronic@gmail.com"><small>Projects</small>controlbyelectronic@gmail.com</a>
+  <a data-i="whatsapp" href="tel:+213658784934"><small>Phone</small>+213 658 784 934</a>
+  <a data-i="github" href="https://github.com/ahmedoukali-pixel" target="_blank" rel="noopener"><small>GitHub</small>ahmedoukali-pixel</a>
+  <a data-i="linkedin" href="https://www.linkedin.com/in/oukali-ahmed/" target="_blank" rel="noopener"><small>LinkedIn</small>oukali-ahmed</a>
+  <a data-i="youtube" href="https://www.youtube.com/@FLA7PRO" target="_blank" rel="noopener"><small>YouTube</small>@FLA7PRO</a>
+  <a data-i="facebook" href="https://www.facebook.com/share/182J3U3Xqq/" target="_blank" rel="noopener"><small>Facebook</small>Ahmed Oukali</a>
+  <a data-i="googlemaps" href="#home"><small>Location</small>Tiaret, Algeria</a>
+ </div>
+</section>
+</main>
+<footer class="wrap"><p>© <span id="y"></span> Ahmed Oukali, Tiaret, Algeria. Innovating the future, one circuit at a time.</p></footer>
+<dialog id="lb"><img alt=""><form method="dialog"><button>Close</button></form></dialog>
+<script src="script.js"></script>
 </body>
 </html>
